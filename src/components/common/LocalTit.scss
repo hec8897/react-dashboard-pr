@@ -1,0 +1,7 @@
+.local__tit {
+    @apply flex p-3 bg-white rounded-t-lg justify-between items-center border-b;
+
+    &__icons {
+        @apply flex gap-3;
+    }
+}
