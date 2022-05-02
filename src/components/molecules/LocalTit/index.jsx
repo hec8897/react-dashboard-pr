@@ -18,7 +18,7 @@ function LocalTit({ children }) {
             <IconBtn>
                 <AiFillSetting size='24' className="cursor-pointer" onClick={settingClick} />
             </IconBtn>
-            <Title size={"text-xl"}>{children}</Title>
+            <Title size={"text-2xl"}>{children}</Title>
             <div className="local__tit__icons">
                 <IconBtn>
                     <AiOutlineSearch size='24' className="cursor-pointer" onClick={searhClick} />

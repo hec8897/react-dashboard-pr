@@ -1,13 +1,12 @@
 import UiExampleBody from "./body";
-import UiExampleTit from "../../molecules/UiTit";
 import {comaNumber} from 'utils/etcUtils'
 
-function UiExample1() {
+function UiExample1({children}) {
     // const [count] = useState(20000);
     const count = 20000
     return (
         <div className="con1__body flex-1 p-5 rounded-md" style={{backgroundColor:'#bbd4fc'}}>
-            <UiExampleTit>Right UI</UiExampleTit>
+            {children}
             <UiExampleBody>{comaNumber(count)}</UiExampleBody>
         </div>
     )

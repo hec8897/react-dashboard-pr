@@ -1,17 +1,15 @@
 import { NavLink } from 'react-router-dom';
-import './CommonNav.scss';
+import Title from 'components/atomic/Title'
+import './index.scss';
+import Links from './Links';
 
-function CommonNav() {
+function CommonNav({ children }) {
     return (
         <nav className='nav'>
             <div className="nav__body">
-                <h1 className='nav__body-tit'>Lorem Ipsum</h1>
-                <ul className="nav__body-lists">
-                    <NavLink to='/'>
-                        <li className='nav__body-lists__list'>
-                            <span>Home</span>
-                        </li>
-                    </NavLink>
+                <Title size={"text-2xl"}>{children}</Title>
+                <ul className="nav__body-lists mt-5">
+                    <Links path='/'>Home</Links>
                     <NavLink to='/page1'>
                         <li className="nav__body-lists__list">
                             <span>User</span>
