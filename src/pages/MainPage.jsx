@@ -1,7 +1,6 @@
 import LocalTit from "../components/common/LocalTit";
-import UiExample1 from "../components/common/UiExample1";
-import UiExampleTit from "../components/common/UiExample1/tit";
-import UiExampleBody from "../components/common/UiExample1/body";
+import UiExample1 from "../components/UiExample1";
+import UiExample2 from "../components/UiExample2";
 import LayoutMain from "../layouts/LayoutMain";
 function MainPage() {
     return (
@@ -9,14 +8,8 @@ function MainPage() {
             <LocalTit>THIS IS PAGE</LocalTit>
             <div className="bg-white">
                 <div className="main-content flex px-10 py-5">
-                    <UiExample1>
-                        <UiExampleTit>Left UI</UiExampleTit>
-                        <UiExampleBody>123123</UiExampleBody>
-                    </UiExample1>
-                    <UiExample1>
-                        <UiExampleTit>Right UI</UiExampleTit>
-                        <UiExampleBody>123123</UiExampleBody>
-                    </UiExample1>
+                    <UiExample1 />
+                    <UiExample2 />
                 </div>
             </div>
         </LayoutMain>

@@ -1,0 +1,12 @@
+.ui-tit{
+    @apply flex pb-3 border-b gap-5 justify-between;
+    &__section-left{
+        @apply flex gap-5 flex-1 items-center;
+    }
+    &__section-right{
+        @apply flex gap-5 justify-end items-center;
+        &__btn{
+            @apply flex gap-2 cursor-pointer px-2 rounded hover:bg-slate-100 active:bg-slate-100 active:shadow-inner;
+        }
+    }
+}

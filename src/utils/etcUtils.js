@@ -1,0 +1,1 @@
+export const comaNumber = price => price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
