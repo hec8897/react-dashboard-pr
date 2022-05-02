@@ -1,0 +1,7 @@
+.main{
+    @apply flex bg-gray-100;
+    &__body{
+        @apply box-border py-5 pr-5;
+    }
+
+}
