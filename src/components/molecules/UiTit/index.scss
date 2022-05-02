@@ -1,0 +1,9 @@
+.ui-tit{
+    @apply flex pb-3 border-b gap-5 justify-between;
+    &__section-left{
+        @apply flex gap-5 flex-1 items-center;
+    }
+    &__section-right{
+        @apply flex gap-3 justify-end items-center;
+    }
+}

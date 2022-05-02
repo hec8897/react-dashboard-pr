@@ -1,6 +1,5 @@
 import UiExampleBody from "./body";
-// import { useState } from "react";
-import UiExampleTit from "../common/tit";
+import UiExampleTit from "../../molecules/UiTit";
 import {comaNumber} from 'utils/etcUtils'
 
 function UiExample1() {

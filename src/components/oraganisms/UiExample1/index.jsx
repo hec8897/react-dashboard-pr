@@ -1,4 +1,4 @@
-import UiExampleTit from "../common/tit";
+import UiExampleTit from "../../molecules/UiTit";
 import UiExampleBody from "./body";
 
 

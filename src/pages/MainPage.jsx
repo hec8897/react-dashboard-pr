@@ -1,6 +1,6 @@
-import LocalTit from "../components/common/LocalTit";
-import UiExample1 from "../components/UiExample1";
-import UiExample2 from "../components/UiExample2";
+import LocalTit from "../components/molecules/LocalTit";
+import UiExample1 from "../components/oraganisms/UiExample1";
+import UiExample2 from "../components/oraganisms/UiExample2";
 import LayoutMain from "../layouts/LayoutMain";
 function MainPage() {
     return (
